@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formproductos.css"/><!--Arreglar error con conexion a base de datos-->
+   <!--<link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\inicio de sesion.css"/>--> 
+    <link rel="icon" href="img/Logos/carro-deportivo.png">
+    <title>Registrar auto</title>
+</head>
+
+<body>
+    
+ <!--Barra de navegacion----------------------------------------------------------------->
+ <header>
+    <section class="wrapper">
+          <nav>
+              <ul>
+                    <br>
+                  <li><img src = "img/Logos/Logo 2.png" height="50" ></li>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="loginusuario.html">Iniciar Sesion</a></li>
+                  <li><a href="loginadmin.html">Administrador</a></li>
+                  <li><a href="productos.html">Autos</a></li>
+                  <li><a href="loginproveedores.html">Proveedores</a></li>
+                  <li><a href="loginagencia.html">Agencia</a></li>
+              </ul>           
+           </nav>
+    </section>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Campos de texto---------------------------------------------------------------------->
+    <section id="content">
+        <br>
+        <br>
+        <br>
+        <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="crudproducto.php"class="btn1" type="submit" name="registar" id="registrar" ><p><h3>Ver Productos</h3></a></p>
+        <p><img src="img/Logos/Logo 2.png"  width="125px" height="70px" ></p>
+       
+      
+    
+        <div class="contenedor-imagenes">
+            <img src="img/Logos/rueda.png" width="50px" height="70px" >
+            <h1><p> Registrar auto</p></h1>
+            <p><img src="img/Logos/usuario.png" width="50px" height="75px"></p>
+          </div><!--Argupacion de imagenes-->
+    
+
+    <form action="formproductos.php" method="Post"><!--conexion a base de datos-->
+        
+        <p>
+            <label for="color">Color: </label>
+            <input type="text" name="color" id="color" required="obligatorio" placeholder="Escribe el color">
+
+        </p>
+
+        <p>
+            <label for="marca" class="colocar_marca">Marca: </label>
+            <input type="text" name="marca" id="marca" required="obligatorio" placeholder="Escribe la marca">
+        </p>
+
+        <p>
+            <label for="modelo" class="colocar_modelo">Modelo: </label>
+            <input type="text" name="modelo" id="modelo" required="obligatorio" placeholder="Escribe el modelo">
+        </p>
+
+        <p>
+            <label for="precio" class="colocar_precio">Precio: </label>
+            <input type="text" name="precio" id="precio" required="obligatorio" placeholder="Escribe el precio">
+        </p>
+
+        <p>
+            <label for="transmision" class="colocar_transmision">Transmision: </label>
+            <input type="text" name="transmision" id="transmision" required="obligatorio" placeholder="Escribe la transmision">
+        </p>
+
+        <p>
+            <label for="Imagen" class="colocar_imagen">Imagen de producto: </label>
+            <input type="text" name="imagen" id="imagen" required="obligatorio" placeholder="Inserta la imagen">
+        </p>
+
+        <button class="btn" type="submit" name="registar" id="registrar" ><p><h3>Registrar</h3></p></button>
+       <!--<button type="submit" name="registar" id="registrar"> <p>Registar Aqui </p></button> --> 
+       
+    </form>
+    <br>
+       
+       
+    
+    
+    </section>
+
+</body>
+
+</html>

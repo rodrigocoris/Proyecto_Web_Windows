@@ -1,0 +1,78 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Iniciar sesion Agencia</title>
+    <link rel="stylesheet" href="loginagencia.css">
+     <!-- <link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\loginagencia.css"/> 	-->
+     <link rel="icon" href="img/Logos/carro-deportivo.png"> <!--icono en pestana-->
+</head>
+
+<body>
+    
+ <!--Barra de navegacion----------------------------------------------------------------->
+ <header>
+  <section class="wrapper">
+        <nav>
+            <ul>
+                  <br>
+                <li><img src = "img/Logos/Logo 2.png" height="50" ></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="loginusuario.html">Iniciar Sesion</a></li>
+                <li><a href="loginadmin.html">Administrador</a></li>
+                <li><a href="productos.html">Autos</a></li>
+                <li><a href="loginproveedores.html">Proveedores</a></li>
+                <li><a href="loginagencia.html">Agencia</a></li>
+            </ul>           
+         </nav>
+  </section>
+</header>
+
+
+  <div class="cajafuera" align="center">
+ 
+<div class="formulariocaja">
+
+<form action="loginagencia.php" method="Post">
+
+<div class="formtitulo">Iniciar Sesion (Agencia)</div>
+<div align="left" class="textoscajas">&#128273; Ingresar usuario</div>
+<input type="text" name="txtusuario" class="cajaentradatexto">
+<div align="left" class="textoscajas">
+&#128274; Ingresar contraseña
+</div>
+<input type="password" name="txtpassword" id="txtpassword"
+ class="cajaentradatexto">
+ <div class="afcheckbox1" align="left">
+ <div style="float:left;">
+ <input type="checkbox" onclick="verpassword()" >
+ </div>
+ <div style="float:left;">
+ Mostrar contraseña
+ </div>
+ </div>
+ 
+<input type="submit" value="Iniciar sesión" class="botonenviar">
+
+<div style="margin-top:5%;">¿No tienes una cuenta?  <a href="formagencia.html">Registrate aqui</a></div>
+</form>
+</div>
+
+</div>
+</body>
+
+<script>
+  function verpassword(){
+      var tipo = document.getElementById("txtpassword");
+      if(tipo.type == "password")
+	  {
+          tipo.type = "text";
+      }
+	  else
+	  {
+          tipo.type = "password";
+      }
+  }
+</script>
+
+</html>

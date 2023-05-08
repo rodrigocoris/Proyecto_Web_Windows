@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formproveedores.css"/> 
+    <!--<link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\formproveedores.css"/> -->   <!--Arreglar error con conexion a base de datos-->
+    <link rel="icon" href="img/Logos/carro-deportivo.png">
+    <title>Registro de usuario</title>
+</head>
+<body>
+    
+ <!--Barra de navegacion----------------------------------------------------------------->
+ <header>
+    <section class="wrapper">
+          <nav>
+              <ul>
+                    <br>
+                  <li><img src = "img/Logos/Logo 2.png" height="50" ></li>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="loginusuario.html">Iniciar Sesion</a></li>
+                  <li><a href="loginadmin.html">Administrador</a></li>
+                  <li><a href="productos.html">Autos</a></li>
+                  <li><a href="loginproveedores.html">Proveedores</a></li>
+                  <li><a href="loginagencia.html">Agencia</a></li>
+              </ul>           
+           </nav>
+    </section>
+</header>
+    
+
+<!--Campos de texto---------------------------------------------------------------------->
+    
+    <section id="content">
+
+        <p><img src="img/Logos/Logo 2.png"  width="200px" height="70px" ></p>
+        <br>
+        <div class="contenedor-imagenes">
+            <img src="img/Logos/proveedores.png" width="80px" height="70px" >
+            <h1><p style="color: rgb(0, 0, 0);">Registro de proveedores</h1> </p>
+            <p><img src="img/Logos/proveedores.png" width="80px" height="75px"></p>
+          </div><!--Argupacion de imagenes-->
+
+        <h1>Registra aqui tus datos personales:</h1>
+        <br>
+        <form action="formproveedores.php" method="Post">
+            <p>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+    
+            </p>
+    
+            <p>
+                <label for="correo" class="colocar_correo">Correo: </label>
+                <input type="email" name="correo" id="correo" required="obligatorio" placeholder="Escribe tu correo">
+            </p>
+    
+            <p>
+                <label for="contrasena" class="colocar_contrasena">Contrasena: </label>
+                <input type="password" name="contrasena" id="contrasena" required="obligatorio" placeholder="Escribe tu contrasena">
+            </p>
+            
+            <button class="btn" type="submit" name="registar" id="registrar" > <p><h4>Registrarse</h4></p></button>
+           <!--<button type="submit" name="registar" id="registrar"> <p>Registar Aqui </p></button> --> 
+    
+        </form>
+        </section>
+
+</body>
+</html>

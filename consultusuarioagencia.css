@@ -1,0 +1,181 @@
+body, html {
+  background: url(img/Logos/consultusuario.jpg) no-repeat;
+  background-size: 2000px;
+}
+  
+  
+  thead, tfoot {
+   
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  
+  tbody tr:nth-child(even) {
+    background-color: #b08181;
+  }
+  
+  
+  
+  table {
+    background-color: #d7cece;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+  }
+  caption, td, th {
+    padding: 0.3em;
+  }
+  th, td {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid rgb(221, 206, 206);
+  }
+  th:lastchild, td:lastchild {
+     border-right: 0;
+  }
+  th {
+    width: 10%;
+  
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*Barra de navegacion-----------------------------------------------------------------------------------*/
+  * {
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    .wrapper {
+      width: 97%;
+      margin: auto;
+      overflow:hidden;
+    }
+    header {
+      background: rgba(0,0,0,0.9);
+      width: 100%;
+      position: fixed;
+      z-index: 10;
+    }
+    
+    nav {
+      float: left; /* Desplazamos el nav hacia la izquierda */
+    }
+    nav ul {
+      list-style: none;
+      overflow: hidden; /* Limpiamos errores de float */
+    }
+    nav ul li {
+      float: left;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    nav ul li a {
+      display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+      padding: 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+    nav ul li:hover {
+      background-color: rgb(101, 33, 165);
+    }
+    .contenido {
+      padding-top: 80px;
+    }
+
+
+
+
+    
+/*boton de iniciar sesion----------------------------------------------------------------------------------------------------*/
+.btn{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(249, 249, 249);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: white;
+
+  
+}
+
+.btn {/*centar el boton*/
+  display: block;
+  margin: auto;
+}
+
+.btn:hover{
+  background-color: rgb(154, 154, 157);
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+}
+
+
+
+
+
+.btn2{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.btn2{/*centar el boton*/
+  display: block;
+  margin: auto;
+}
+
+.btn2:hover{
+  background-color: rgb(43, 147, 38);
+  border: 2px solid rgb(239, 247, 244);
+  color: white;
+}
+
+
+.btn3{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.btn3{/*centar el boton*/
+  display: block;
+  margin: auto;
+}
+
+.btn3:hover{
+  background-color: rgb(147, 48, 48);
+  border: 2px solid rgb(239, 247, 244);
+  color: white;
+}
